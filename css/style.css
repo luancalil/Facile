@@ -1,0 +1,47 @@
+#home-quote {
+  background: url('/img/bg-quote.jpg');
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.bg-padrao {
+  background: #234bad;
+}
+
+.btn-padrao {
+  background: #234bad;
+  color: #fff;
+}
+
+.btn-padrao:hover {
+  color: #fff;
+}
+
+.text {
+  color: #234bad;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li a:hover {
+  color: #f4b225;
+}
+
+.active {
+  color: #f4b225;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .fixed-top {
+    position: relative;
+  }
+}
